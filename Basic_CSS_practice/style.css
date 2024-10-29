@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 200, 0);
+}
+h3{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+    color: rgb(105, 38, 176);
+}
+#title-part{
+    font-size: medium;
+    text-decoration: none;
+    text-align: justify;
+    font-display: inherit;
+    margin-left: 20px;
+
+}
+
+li{
+    color: blue;
+    background-color: lime;
+}
+.mongoDb{
+    height: 100px;
+    text-transform: capitalize;
+    font-style: oblique;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(225, 64, 5);
+}
+.ExpressJS{
+    height: 100px;
+    
+    
+    text-transform: initial;
+    text-decoration: dotted;
+    text-align: center;
+    color: rgb(125, 10, 241);
+    
+}
