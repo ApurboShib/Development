@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+}
+label {
+    display: block;
+   
+    margin-top: 10px;
+    padding-top: 2px;
+}
+input {
+    display: inline-block;
+    margin-left: 10px;
+}
+fieldset{
+    
+    color: red;
+    margin-top: 15px;
+    display: flex;
+    justify-items: center;
+    border: 2.5px solid blue;
+}
+button {
+    background-color: rgb(16, 243, 16);
+    border: 2px solid black;
+}
