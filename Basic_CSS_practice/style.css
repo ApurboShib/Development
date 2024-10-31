@@ -31,11 +31,8 @@ li{
 }
 .ExpressJS{
     height: 100px;
-    
-    
     text-transform: initial;
     text-decoration: dotted;
     text-align: center;
-    color: rgb(125, 10, 241);
-    
+    color: rgb(125, 10, 241);   
 }
