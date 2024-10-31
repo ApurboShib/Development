@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic structure of HTML 5.</title>
+    <link rel="stylesheet" href="basic_formet.css">
+
+</head>
+<body>
+    <!-- this is my header part. -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Blogs</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- this is my main content part. -->
+    <main>
+        <article>
+            <header>
+                <h2>My trip to Mountain was charming.</h2>
+                <p>Published on : <time datetime="2024-10-31"> Oct 31, 2024</time> </p>
+            </header>
+            <figure>
+                <img src="data:image/jpeg;base64,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" alt="Mountain">
+                <figcaption>
+                    Moon Night Sky in a mountain.
+                </figcaption>
+            </figure>
+            <section>
+                <h3>Experience.</h3>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad inventore asperiores vero esse fugit non vitae exercitationem dolores dolorum quod!
+            </section>
+            <section>
+                <h3>Trip planning.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, laboriosam?</p></section>
+                <section><h3>Place to visit.
+                    
+                </h3><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius, inventore.</p></section>
+                <footer>
+                    <p>Tags : <a href="#">Sky</a></p>
+                    <p>Forest : <a href="#">Forest</a></p>
+                </footer>
+        </article>
+    </main>
+    <!-- this is my footer part. -->
+    <footer>
+        <p><small> &copy;2029. All right Reserved.</small></p>
+    </footer>
+</body>
+</html>
