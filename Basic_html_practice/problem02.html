@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create a feedback Form</title>
+    <link rel="stylesheet" href="problem02.css">
+</head>
+<body>
+    <h2>Feedback Form</h2>
+    <p>We would love to here your thoughts, suggestions, concerns or problem
+    with anything so we can improve!
+    </p>
+    <hr>
+    
+    <form action="">
+        <legend>Feedback Type</legend>
+        <br>
+        <label for="option">
+            <input type="radio" name="cmt" id="option"> Comments
+        </label>
+        <label for="option2">
+           <input type="radio" name="cmt" id="option2"> suggestions
+        </label>
+        <label for="option3">
+           <input type="radio" name="cmt" id="option3"> Questions
+        </label>
+    </form>
+    <br>
+    <p>Describe Your Feedback :&star; </p>
+    <textarea name="" id="" cols="30" rows="10"></textarea>
+    <br>
+    <form action="">
+        <legend><strong>Name</strong></legend>
+        <label for="fname">
+            First Name :
+        </label>
+        <input type="text" placeholder="First Name" name="" id="fname"> <br><br>
+        <label for="lname"> Last Name :</label>
+        <input type="text" placeholder="Last Name" name="" id="lname"><br><br>
+        <br>
+        <legend>E-mail</legend>
+        <br>
+        <input type="email" placeholder="ex : abc@example.com" name="mail" id=""><br><br>
+        <button type="submit">Submit</button>
+    </form>
+
+</body>
+</html>
