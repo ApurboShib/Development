@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+}
+
+body{
+    height: 100px;
+    width: 100%;
+}
+h3{
+    font-size: 25px;
+    color: red;
+}
+/* hover means mouse over */
+h3:hover {
+    font-weight: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: solid;
+}
+input:focus
+{
+    color: blue;
+}
+submit:hover {
+    color: brown;
+    background-color: black;
+}
