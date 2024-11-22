@@ -26,3 +26,17 @@ submit:hover {
     color: brown;
     background-color: black;
 }
+/* normaly anchor tag er colour blue thakbe but eitake amra change korte parbo */
+a:visited {
+    color: red;
+}
+/* li:last-child{
+    color: red;
+} */
+ /* li:first-child{
+
+    color: magenta;
+ } */
+li:nth-child(2n + 1) {
+    color: brown;
+}

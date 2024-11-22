@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple gridbox</title>
+    <style>
+        
+        .header,.nav, main, .sidebar, .advertise, .footer {
+            background-color: aqua;
+            border: 2px solid tomato;
+            padding: 5px;
+            border-radius: 5px;
+        }
+        .header {
+            grid-area: header;
+        }
+        .nav{
+            grid-area: nav;
+        }
+        .main {
+            grid-area: main;
+        }
+        .sidebar {
+            grid-area: sidebar;
+        }
+        .advertise {
+            grid-area: advertise;
+        }
+        .footer {
+            grid-area: footer;
+        }
+        nav , a {
+            color: black;
+            text-decoration: none;
+        }
+        .container {
+            display: grid;
+            gap: 20px;
+            grid-template-areas: 
+            "header  header   header header"
+            "nav     main     main   sidebar"
+            "nav     main     main   advertise"
+            "footer  footer   footer footer"
+            ;
+        }
+
+    </style>
+</head>
+<body class="container">
+    <!-- <h2>Simple Grid Layout.</h2> -->
+    <header class="header">
+        <h3>The Header</h3>
+    </header>
+    <nav class="nav">
+        <ul>
+            <li><a href="">nav - 1</a></li>
+            <li><a href="">nav - 2</a></li>
+            <li><a href="">nav - 3</a></li>
+        </ul>
+    </nav>
+    <main class="main">
+        <article>
+            <h3>Main article 1</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto qui ut sint. Sunt beatae cumque ex iste magnam vel officiis!</p>
+        </article>
+        <article>
+            <h3>Main article 2</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed error obcaecati temporibus neque dignissimos facere eius sit. Facilis, at ea!</p>
+        </article>
+        <article>
+            <h3>Main article 3</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus eius facilis eligendi commodi explicabo! Facere minus quis aperiam earum atque.</p>
+        </article>
+
+    </main>
+    <aside>
+        <div class="sidebar">
+            <h3>Sidebar</h3>
+        </div>
+        <div class="advertise">
+            <h3>Advertising</h3>
+        </div>
+    </aside>
+
+    <footer class="footer">
+        <h3>The footer</h3>
+    </footer>
+    
+</body>
+</html>
