@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transition</title>
+    <style>
+        .box {
+            width: 300px;
+            height: 100px;
+            border: 2px solid tomato;
+            background-color: beige;
+            transition: width 5s linear 3s, background-color 5s ease-in 3s;
+        }
+        .box:hover {
+            width: 400px;
+            
+            /* proparty name |  Duration |  easing Function |   delay   */
+            /* transition: width 5s; */
+            /* transition: height 5s linear 3s, blue;
+            background-color: red; */
+            background-color: red;
+            
+
+
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>Transfrom :  Change the shape. this is a css style property name.</li>
+        <li>Translate : It is a value of the transfrom style rule, this means you move either x-axis or y-axis ans also both</li>
+        <li>Transistion : How long will take to do the change of the shape or colour.</li>
+    </ul>
+
+    <div class="box">box - 1</div>
+    <div class="box">box - 2</div>
+    <div class="box">box - 3</div>
+</body>
+</html>
